@@ -1,0 +1,32 @@
+{
+  "name": "discord-ranking-bot-v13-robust",
+  "version": "1.0.0",
+  "description": "A robust Discord bot with ranking and casino features for Glitch (discord.js v13).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "better-sqlite3": "^7.5.0",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "querystring": "^0.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

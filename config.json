@@ -1,0 +1,46 @@
+{
+  "general": {
+    "maxBet": 1000,
+    "initialPoints": 100,
+    "dailyBonus": 50,
+    "dailyRescueBonus": 100
+  },
+  "pointSystem": {
+    "perMessage": 1,
+    "perVcMinute": 2
+  },
+  "cooldowns": {
+    "join": 60,
+    "check": 5,
+    "ranking": 30,
+    "gift": 10,
+    "daily": 10,
+    "gamble": 10,
+    "coinflip": 10,
+    "dice": 10,
+    "highlow": 15,
+    "roulette": 20
+  },
+  "games": {
+    "gamble": {
+      "winChance": 0.5,
+      "multiplier": 2
+    },
+    "coinflip": {
+      "multiplier": 2
+    },
+    "dice": {
+      "multiplier": 5
+    },
+    "highlow": {
+      "multiplier": 1.9
+    },
+    "roulette": {
+      "multipliers": {
+        "color": 2,
+        "parity": 2,
+        "number": 36
+      }
+    }
+  }
+}
